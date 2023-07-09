@@ -19,7 +19,8 @@ import managers.FileReaderManager;
 		
 		plugin= {"pretty", "summary",
 				
-				"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
+				"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
+				"json:target/report.json"
 		},
 	
 		monochrome = true

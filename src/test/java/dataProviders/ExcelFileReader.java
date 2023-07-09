@@ -24,7 +24,6 @@ import managers.FileReaderManager;
 public class ExcelFileReader {
 	
 	FileReaderManager fileReaderManager;
-	
 	ConfigFileReader configFileReader = new ConfigFileReader();
 	public String excel_Path = configFileReader.getExcelPath();
 	
